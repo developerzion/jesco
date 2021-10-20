@@ -79,7 +79,7 @@ section{
 }
 
 .banner .wrapper{
-    margin-top: 7rem;
+    margin-top: 11rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -228,9 +228,13 @@ section{
 }
 .analytic .analytic-wrapper .box .link a{
     color: var(--default-black);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: inline-block;
     margin: 2rem 0;
+}
+.analytic .analytic-wrapper .box .link a:nth-child(2){
+    margin: 0 0 0 1rem;
+
 }
 .analytic .analytic-wrapper .box p.learn{
     display: block;
