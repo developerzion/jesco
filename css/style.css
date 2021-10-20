@@ -23,18 +23,21 @@
 
 html{
     font-size: 68%;
+    scroll-behavior: smooth;
 }
 body{
     background: #fff
 }
 
 header{
+    position: fixed;
     padding: 1.7rem 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     left: 0; top: 0; right: 0;
     box-shadow: var(--box-shadow);
+    background: #fff;
 }
 header .logo{
     font-size: 2.5rem;
@@ -48,6 +51,9 @@ header .navbar a{
     font-size: 1.3rem;
     color: var(--default-black);
     padding: 1rem 1.4rem;
+}
+header .navbar a.mobileauth{
+    display: none;
 }
 header .navbar a:hover{
     font-weight: bold;
@@ -65,7 +71,6 @@ header .sign-login a:nth-of-type(2){
     color: #fff;
 }
 header span.bars{
-    font-size: 2rem;
     cursor: pointer;
     display: none;
 }
@@ -74,7 +79,7 @@ section{
 }
 
 .banner .wrapper{
-    margin-top: 3rem;
+    margin-top: 7rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -319,6 +324,7 @@ section{
     height: 4rem;
     padding: 0 2rem;
     border-radius: 5rem;
+    font-size: 1.3rem;
     /* border: 2px solid var(--default-black) */
 
 }
@@ -326,8 +332,9 @@ section{
     border-radius: 2rem;
     background: var(--default-orange);
     color: #fff;
-    width: 7rem;
-    height: 4rem;
+    width: 7rem; height: 4rem;
+    line-height: 5rem;
+    font-size: 2rem;
 }
 
 .copywright{
@@ -340,6 +347,29 @@ section{
     background: #fafbff;
 
 }
+.copywright a{
+    color: var(--default-orange);
+}
+
+.scroll{
+    position: fixed;
+    right: 2rem; 
+    top: -120%;
+    font-size: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    background: var(--default-orange);
+    color: #fff;
+    line-height: 4.5rem;
+    border-radius: 1rem;    
+    transition: 1s linear;
+}
+.scroll.active{
+    top: 90%;
+}
+
+
 
 
 
@@ -369,23 +399,37 @@ section{
     header .navbar{
         position: absolute;
         background: #fff;
-        left: -100%;
-        top: 0;
+        left: -120%;
+        top: 7rem;
         height: 100vh;
         width: 100%;
+    }
+    header span.bars{
+        display: inline;
+        margin-right: 1rem;
+        font-size: 2.5rem;
+    }
+    header .navbar.active{
+        left: 0;
+    }
+    header span.removeshow{
+        display: none;
     }
     header .navbar a{
         display: block;
         font-weight: bold;
         text-align: center;
+        font-size: 1.7rem;
+        padding: 1.5rem 0;
     }
-    header span.bars{
-        display: inline;
-        margin-right: 1rem;
-        font-size: 3rem;
-    }
+    
     header .sign-login{
         display: none;
+    }
+    header .navbar a.mobileauth{
+        display: block;
+        color: #fff;
+        background: var(--default-orange);
     }
     .banner .wrapper .box h1{
         font-size: 3.5rem;
