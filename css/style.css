@@ -471,5 +471,8 @@ section{
     .footer .footer-wrapper{     
         padding: 5rem 0;
     }
+    .membership .member .box{
+        text-align: center;
+    }
 
 }
