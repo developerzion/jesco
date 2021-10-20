@@ -402,7 +402,7 @@ section{
         font-size: 2.5rem;
     }
     .analytic .analytic-wrapper{      
-        padding: 0rem 1rem;
+        padding: 0rem 0rem;
     }
     .analytic .analytic-wrapper .box h1{
         font-size: 3rem;
