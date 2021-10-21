@@ -79,10 +79,11 @@ section{
 }
 
 .banner .wrapper{
-    margin-top: 11rem;
+    margin-top: 8rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    align-items: center;
 }
 .banner .wrapper .box{
     flex:  1 1 30rem;
@@ -94,6 +95,10 @@ section{
 .banner .wrapper .box p{
     font-size: 1.2rem;
     color: var(--default-black);
+}
+.banner .wrapper .box img{
+    width: 100%;
+    text-align: center;
 }
 .banner .wrapper .box form.getstarted{
     height: 5rem;
@@ -433,7 +438,7 @@ section{
     header .navbar a.mobileauth{
         display: block;
         color: #fff;
-        background: var(--default-orange);
+        color: var(--default-orange);
     }
     .banner .wrapper .box h1{
         font-size: 3.5rem;
