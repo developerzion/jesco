@@ -198,11 +198,14 @@
     </div>
 </section>
 <div class="copywright">
-    &copy;Copywright 2020. <a href="https://www.uplabs.com/posts/education-website-landing-page-dd686696-9c63-4e65-a8ea-312e73f11928">UI/UX by MH JIBON</a> | Developed By Devloperzion
+    &copy;Copywright <span id="date"></span>. <a href="https://www.uplabs.com/posts/education-website-landing-page-dd686696-9c63-4e65-a8ea-312e73f11928">UI/UX by MH JIBON</a> | Developed By Devloperzion
 </div>
 
 <script src="js/script.js"></script>
-
+<script>  
+    var today=new Date().getFullYear("YYYY");  
+    document.getElementById('date').innerHTML=today;  
+</script>  
     
 </body>
 </html>
