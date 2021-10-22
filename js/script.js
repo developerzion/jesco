@@ -18,3 +18,14 @@ function togglenav(x) {
   x.classList.toggle("fa-times");
   document.querySelector(".navbar").classList.toggle("active")
 }
+
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`.animate`, {
+    interval: 200
+})

@@ -19,6 +19,7 @@
     transition: all .2s linear;
     box-sizing: border-box;
     text-decoration: none;
+    color: var(--default-black);
 }
 
 html{
@@ -28,7 +29,9 @@ html{
 body{
     background: #fff
 }
-
+.re-arrange{
+    order: 0;
+}
 header{
     position: fixed;
     padding: 1.7rem 9%;
@@ -38,6 +41,7 @@ header{
     left: 0; top: 0; right: 0;
     box-shadow: var(--box-shadow);
     background: #fff;
+    z-index: 1000;
 }
 header .logo{
     font-size: 3rem;
@@ -461,8 +465,7 @@ section{
     }
     .analytic .analytic-wrapper .box h1{
         font-size: 3rem;
-    }  
-       
+    }       
 
     .experience .wrapper{
         padding: 0rem;
@@ -478,6 +481,9 @@ section{
     }
     .membership .member .box{
         text-align: center;
+    }
+    .re-arrange{
+        order: 1;
     }
 
 }
