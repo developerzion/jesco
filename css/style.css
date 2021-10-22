@@ -377,6 +377,7 @@ section{
     line-height: 4.5rem;
     border-radius: 1rem;    
     transition: 1s linear;
+    z-index: 1000;
 }
 .scroll.active{
     top: 90%;
