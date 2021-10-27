@@ -379,6 +379,9 @@ section{
     transition: 1s linear;
     z-index: 1000;
 }
+.scroll span{
+    color: #fff;
+} 
 .scroll.active{
     top: 90%;
 }
