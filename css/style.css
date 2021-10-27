@@ -448,6 +448,9 @@ section{
         color: #fff;
         color: var(--default-orange);
     }
+    .banner .wrapper{
+        margin-top: 12rem;
+    }
     .banner .wrapper .box h1{
         font-size: 3.5rem;
     }
