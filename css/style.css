@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --default-orange: #fea914;
+    --default-orange: #3cc9c7;
     --default-black: #35363a;
     --default-big-size: 3.5rem;
     --default-big-size-res: 2.5rem;
@@ -177,20 +177,23 @@ section{
 }
 .membership .member .box{
     outline: 2rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
     box-shadow: var(--box-shadow);
     height: 30rem;
     padding: 4rem 4rem;
     color: var(--default-black);
 }
 .membership .member .box span{
-    width: 7rem;
+    max-width: 7rem;
     height: 7rem;
-    line-height: 7rem;
+    /* line-height: 7rem;
     text-align: center;
     font-size: 2.5rem;
     border-radius: 2rem;
-    background: rgb(248, 244, 244);
+    background: rgb(248, 244, 244); */
+}
+.membership .member .box span img{
+    width: 80px;
 }
 
 
@@ -257,7 +260,7 @@ section{
 .contact .wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem,  1fr));
-    background: var(--default-green);
+    background:#3cc9c7;
     padding: 6rem 11rem;
     border-radius: 1rem;
     align-items: center;
@@ -343,6 +346,9 @@ section{
     width: 7rem; height: 4rem;
     line-height: 5rem;
     font-size: 2rem;
+}
+.footer .footer-wrapper .footer-content .footer-search button span{
+    color: #fff;
 }
 
 .copywright{
