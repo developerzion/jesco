@@ -432,6 +432,9 @@ section{
         font-size: 1.7rem;
         padding: 1.5rem 0;
     }
+    header .navbar a:nth-child(1){
+        margin-top: 4rem;
+    }
     
     header .sign-login{
         display: none;
