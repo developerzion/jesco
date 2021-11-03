@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --default-orange: #f1a501;
-    --default-green: #01957d;
+    --default-orange: #fea914;
     --default-black: #35363a;
-    --default-pink: #fd7e7f;
     --default-big-size: 3.5rem;
     --default-big-size-res: 2.5rem;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -93,7 +91,7 @@ section{
     flex:  1 1 30rem;
 }
 .banner .wrapper .box h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--default-black);
 }
 .banner .wrapper .box p{
@@ -139,22 +137,18 @@ section{
 }
 .experience .wrapper .box{
     display: flex;
+    gap: 2rem;
 }
 .experience .wrapper .box span{
     width: 6rem;
     height: 6rem;
-    background: #eee;
-    border-radius: 50%;
     line-height: 6rem;
     text-align: center;
-    font-size: 2rem;
 }
-.experience .wrapper .box span.default-green{
-    color: var(--default-green);
+.experience .wrapper .box span img{
+    width: 100%;
 }
-.experience .wrapper .box span.default-pink{
-    color: var(--default-pink);
-}
+
 .experience .wrapper .box p{
     font-size: 1.5rem;
     margin-left: 1.5rem;
@@ -198,6 +192,7 @@ section{
     border-radius: 2rem;
     background: rgb(248, 244, 244);
 }
+
 
 .membership .member .box:hover{
     box-shadow: var(--box-shadow-special);
@@ -452,7 +447,7 @@ section{
         margin-top: 12rem;
     }
     .banner .wrapper .box h1{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
     .banner .wrapper .box form.getstarted button{
         font-size: 1.2rem;
