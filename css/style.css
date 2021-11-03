@@ -405,7 +405,9 @@ section{
     }    
 }
 @media (max-width:619px){   
-
+    .banner .wrapper .box{
+        text-align: center;
+    }
     header .navbar{
         position: absolute;
         background: #fff;
