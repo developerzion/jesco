@@ -95,7 +95,8 @@ section{
     color: var(--default-black);
 }
 .banner .wrapper .box p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
     color: var(--default-black);
 }
 .banner .wrapper .box img{
