@@ -134,7 +134,7 @@ section{
     padding: 0 5rem;
 }
 .experience{
-    margin-top: 6rem;
+    padding-top: 10rem;
 }
 .experience .wrapper .box{
     display: flex;
@@ -157,7 +157,7 @@ section{
 }
 
 .why-us .whyus{
-    margin-top: 5rem;
+    margin-top: 10rem;
     text-align: center;
     color: var(--default-black);
 }
@@ -169,8 +169,8 @@ section{
     line-height: 2.5rem;
 }
 
-
 .membership .member{
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
@@ -217,10 +217,9 @@ section{
 .membership .member .box p{
     font-size: 1.4rem;
 }
-.analytic{
-    margin: 6rem 0
-}
+
 .analytic .analytic-wrapper{
+    margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     gap: 2rem;
@@ -266,7 +265,7 @@ section{
     border-radius: 1rem;
     align-items: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-bottom: 3.5rem;
 }
 .contact .wrapper .box p{
