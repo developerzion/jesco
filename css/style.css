@@ -42,7 +42,7 @@ header{
     z-index: 1000;
 }
 header .logo{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--default-black);
 }
